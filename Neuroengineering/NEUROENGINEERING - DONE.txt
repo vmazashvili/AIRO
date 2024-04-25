@@ -1,0 +1,594 @@
+#separator:tab
+#html:true
+neuron's basic functions are:	1. <b>Collection</b> of information from multiple sources<br>2. <b>Integration</b> - processing of incoming info to provide binary decision<br>3. <b>Generation</b> and <b>Propagation</b> - of the bit information to target cells (other neural and muscle)<br>
+Neuron parts are:	Dendrites (inputs), Cell body, Axon Hillock, Myelinated axon, Axon terminal (outputs)
+four main ion families:	Na+ K+ Cl- and Ca++
+Describe neural membrane	phospholipid bilayer, ion pumps and channels
+what is a difference in electrical potential between the interior and external of a neuron at rest?	-70mV (internal part more negative). The number is a sum of all diffusional and electrical forces. (nernst equation)
+Nernst equation:	Δμ = RT ln [𝑋]<sub>𝐴</sub>/[𝑋]<sub>B</sub>&nbsp;+ zF(E<sub> A</sub> − E <sub>B</sub> )<br>first part diffusional forces, second - electrical forces
+Depolarization:	ion+ go inside the membrane or opn- go outside the cell =&gt; <b>Reduction of the negativity of internal environment w.r.t external one</b>
+Hyperpolarization	ion- goes inside the membrane or ion+ leaes the cell. (there are also 2 types: Repolarization and hyperpolarization)
+Repolarization	hyperpolarization (increase in internal negativity) if the membrane was depolarized before (reduced negativity of internal environment)&nbsp;
+hyperpolarization	if the membrane was polarized before and internal negativity still increases (was more negative than -70mV)
+Synapses:	"point where two cells meet and exchange the information. most common are chemical synapses. info exchange is Not a bidirectional
+<br>exchange but a unidimensional one from PRE-synapses cell to the
+<br>POST-synapses cell."
+Synaptic cleft:	the space between pre and post synapses.&nbsp;
+Neurotransmitters:	chemical transmitters taking part in information exchange.
+neurotransmitters' role is:	opening some specific ion gated channels in postsynaptic membrane. The ion channel will open when the neurotransmitter (released by presynaptic cell) reches a receptor in the postsynaptic membrane. Neurotransmitter is like a key, the receptor is the lock that opens the ion channels.
+excitatory synapses	releases a neutortansmitter that opens a port for examples for Na+ and generates a depolarization.<br><br>
+inhibitory sinapses:	generate a neurotransmitter generationg hyperpolarization (for examples Cl-).
+hyperpolarization has _____ effect while Depolarization _______ .&nbsp;	inhibitory, excitatory
+A variation of the membrane potential which appears only in neural, muscular and cardiac cells	What is an action potential
+What is an action potential	A variation of the membrane potential which appears only in neural, muscular and cardiac cells
+Describe action potential	&gt; brings information, <br>&gt; is propagated to othe cells. <br>&gt; it is all-or-none process.<br>&gt; is only triggered after the stimulus reaches the treshold<br>&gt; always the same shape, duration and intensity, irrespectively of stimulus amplitude.
+there are two kinds of action potential propagation	point to point propagation (unmyelinated axons)<br>Saltatory propagation (myelinated axons)
+point to point propagation	unmyelinated axons: the action potential is generated at each membrane section, it is propagated in one direction; refractory period guarantees no back propagation
+Saltatory propagation - myelinated axons	there is myelinated sheath, <b>we dont have gated channels, </b>but rather voltage-gated channels at Ranvier nodes (აი მიელინი რო წყდება იქ). propagation happens passively with the intra and extra membrane ion flows. it isnt as strong as point to point, but is sufficient enough to trigger another AP in next Ranvier node. It is faster and can propagate AP in longer distances
+Grey matter composition:	Cell bodies and dendrites
+white matter contains	myelinated axons
+T-synaptic plasticity	when we do the same action several times, the neurotransmitter number between presynaptic and postsynaptic cell change and strengthen. so the velocity of info increases.
+Local Field Potentials (LPF):	is the extracellular current flow resulting from the linear summation of PSP (Post Synaptic Potential)
+what is palisade&nbsp;	&nbsp;when the cells are parallel to each other and are close as well.
+neurons that produce closed field (cancellation before it reaches the electrodes) are orientated like:	radially simmetric neurons<br>randomly orientated neurons<br>asynchronously activated neurons
+open field is created by the neurons which are orientated:	alligned and synchronous, currents sum and conduct to the electrodes
+what kind of activity is mainly captured by the EEG?	NOT action potentials but post-synaptic potentials, which are slower and easier to sum up
+Limitation of scalp EEG	- Spatial blur; cuz of many layers for a signal to go through, it gets dissipated. deeper the distance, worse the signal. also only high num of synchronous neurons' signal can be captured.<br>- Low signal-to-noise ratio<br>- Multiple sources contribute to the single electrode signal<br>- Near electrodes record partially overlapped signals<br>- Reference choice<br>
+Advantage of scalp EEG	- Non-invasive<br>- Easy to use<br>- Portable<br>- Inexpensive<br>- Covers the entire cortical surface<br>- Gives excellent temporal resolution
+Explain Neural decoding	finding the stimulus that more likely produces the spike train that it has induced
+preferred and opposite response	preferred response is called when the neuron response changes with the input, opposite is opposite
+discriminability	"when two different distributions are gaussian
+<br>can be defined as the difference between their means divided by
+<br>the standard deviation.<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt; 𝑟 + &gt; − &lt; 𝑟 − &gt;
+<br>𝑑 ′ = ------------------------------<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 𝜎 𝑟"
+brain networks' types:	anatomical, functional, effective
+The three main neuron functions are:	"1. <b><u>Collection of information</u></b> from multiple sources<br>2. <b><u>Integration</u> </b>(in time and space) if incoming information to provide a binary decision<br>3. <b><u>Generation and propagation</u></b> of a bit of information up to target cells (other neural cells,
+<br>muscle cells)"
+"The neuron collects several inputs x , it adds them (integration) and finally produces an output
+<br>signal that is duplicated between y<sub>1</sub> . . . y<sub>m</sub> . This output signal is binary and it's produced in the <span class=""cloze"" data-cloze=""axon&#x0A;&lt;br&gt;hillock"" data-ordinal=""1"">[...]</span>&nbsp;most of the time."	"The neuron collects several inputs x , it adds them (integration) and finally produces an output
+<br>signal that is duplicated between y<sub>1</sub> . . . y<sub>m</sub> . This output signal is binary and it's produced in the <span class=""cloze"" data-ordinal=""1"">axon
+<br>hillock</span>&nbsp;most of the time.<br>
+"
+"Collection of information, Integration, and Generation and propagation are performed by the&nbsp;<span class=""cloze"" data-cloze=""membrane&#x20;of&#x20;the&#x20;neuron"" data-ordinal=""1"">[...]</span>"	"Collection of information, Integration, and Generation and propagation are performed by the&nbsp;<span class=""cloze"" data-ordinal=""1"">membrane of the neuron</span><br>
+"
+"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze"" data-cloze=""phosphoric&#x20;head"" data-ordinal=""3"">[...]</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass."	"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass.<br>
+"
+"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze"" data-cloze=""hydrophilic"" data-ordinal=""2"">[...]</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass."	"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass.<br>
+"
+"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze"" data-cloze=""lipidic&#x20;tails"" data-ordinal=""4"">[...]</span> that does not allow water to pass."	"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass.<br>
+"
+"The neuron membrane is composed by a&nbsp;<span class=""cloze"" data-cloze=""phospolipid&#x20;bilayer"" data-ordinal=""1"">[...]</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass."	"The neuron membrane is composed by a&nbsp;<span class=""cloze"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze-inactive"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass.<br>
+"
+"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze"" data-cloze=""hydrophobic"" data-ordinal=""5"">[...]</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass."	"The neuron membrane is composed by a&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">phospolipid bilayer</span>, in which each layer is composed by&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">hydrophilic</span>&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">phosphoric head</span> and two&nbsp;<span class=""cloze"" data-ordinal=""5"">hydrophobic</span> <span class=""cloze-inactive"" data-ordinal=""4"">lipidic tails</span> that does not allow water to pass.<br>
+"
+"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze"" data-cloze=""Potassium&#x20;&lt;i&gt;&#x28;K&lt;sup&gt;&#x2B;&lt;&#x2F;sup&gt;&#x29;&lt;&#x2F;i&gt;"" data-ordinal=""2"">[...]</span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br>"	"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br><br>
+"
+"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze"" data-cloze=""Chloride&#x20;&lt;i&gt;&#x28;Cl&lt;sup&gt;&#x2D;&lt;&#x2F;sup&gt;&#x29;&lt;&#x2F;i&gt;"" data-ordinal=""4"">[...]</span><br>"	"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br><br>
+"
+"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze"" data-cloze=""Calcium&#x20;&lt;i&gt;&#x28;Ca&lt;sup&gt;&#x2B;&#x2B;&lt;&#x2F;sup&gt;&#x29;&lt;&#x2F;i&gt;"" data-ordinal=""3"">[...]</span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br>"	"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze-inactive"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br><br>
+"
+"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze"" data-cloze=""Sodium&#x20;&lt;i&gt;&#x28;Na&lt;sup&gt;&#x2B;&lt;&#x2F;sup&gt;&lt;u&gt;&#x29;&lt;&#x2F;u&gt;&lt;&#x2F;i&gt;"" data-ordinal=""1"">[...]</span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br>"	"The main ion families we are most interested in are:<br>1.&nbsp;<span class=""cloze"" data-ordinal=""1"">Sodium <i>(Na<sup>+</sup><u>)</u></i></span><br>2.&nbsp;<span class=""cloze-inactive"" data-ordinal=""2"">Potassium <i>(K<sup>+</sup>)</i></span><br>3.&nbsp;<span class=""cloze-inactive"" data-ordinal=""3"">Calcium <i>(Ca<sup>++</sup>)</i></span><br>4.&nbsp;<span class=""cloze-inactive"" data-ordinal=""4"">Chloride <i>(Cl<sup>-</sup>)</i></span><br><br>
+"
+"<div>No cloze ⁨2⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"	"<div>No cloze ⁨2⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"
+"<div>No cloze ⁨3⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"	"<div>No cloze ⁨3⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"
+"There are three different types of electrical signals that involve the neuron membrane:<br><br><ol><li><span class=""cloze"" data-cloze=""Membrane&#x20;Potential"" data-ordinal=""1"">[...]</span>: Due to the different ion concentration between inside and outside the neuron&nbsp;</li><li><span class=""cloze"" data-cloze=""Membrane&#x20;Current"" data-ordinal=""1"">[...]</span>: Due to ion movement between inside and outside the cell<br></li><li><span class=""cloze"" data-cloze=""Internal&#x20;&#x2F;&#x20;External&#x20;current"" data-ordinal=""1"">[...]</span>: Due to ion movement inside and outside the neuron</li></ol>"	"There are three different types of electrical signals that involve the neuron membrane:<br><br><ol><li><span class=""cloze"" data-ordinal=""1"">Membrane Potential</span>: Due to the different ion concentration between inside and outside the neuron&nbsp;</li><li><span class=""cloze"" data-ordinal=""1"">Membrane Current</span>: Due to ion movement between inside and outside the cell<br></li><li><span class=""cloze"" data-ordinal=""1"">Internal / External current</span>: Due to ion movement inside and outside the neuron</li></ol><br>
+"
+"The membrane potential at
+<br>rest is about <span class=""cloze"" data-cloze=""−70mV&#x20;&#x2E;"" data-ordinal=""1"">[...]</span>"	"The membrane potential at
+<br>rest is about <span class=""cloze"" data-ordinal=""1"">−70mV .</span><br>
+meaning that inside of the cell, the potential is ... compared to outside"
+"Each ion is subject to two different types of forces:<br><ol><li><span class=""cloze"" data-cloze=""Diffusional&#x20;Force"" data-ordinal=""1"">[...]</span>: Due to chemical gradient, namely different concentration of ions in the intra-<br><br>and extra-cellular fluids</li><li><span class=""cloze-inactive"" data-ordinal=""2"">Electrical Force</span>: Due to electrical gradient, positive ions are attracted toward the region with a<br><br>negative potential, and viceversa<br></li></ol>"	"Each ion is subject to two different types of forces:<br><ol><li><span class=""cloze"" data-ordinal=""1"">Diffusional Force</span>: Due to chemical gradient, namely different concentration of ions in the intra-<br><br>and extra-cellular fluids</li><li><span class=""cloze-inactive"" data-ordinal=""2"">Electrical Force</span>: Due to electrical gradient, positive ions are attracted toward the region with a<br><br>negative potential, and viceversa<br></li></ol><br>
+"
+"Each ion is subject to two different types of forces:<br><ol><li><span class=""cloze-inactive"" data-ordinal=""1"">Diffusional Force</span>: Due to chemical gradient, namely different concentration of ions in the intra-<br><br>and extra-cellular fluids</li><li><span class=""cloze"" data-cloze=""Electrical&#x20;Force"" data-ordinal=""2"">[...]</span>: Due to electrical gradient, positive ions are attracted toward the region with a<br><br>negative potential, and viceversa<br></li></ol>"	"Each ion is subject to two different types of forces:<br><ol><li><span class=""cloze-inactive"" data-ordinal=""1"">Diffusional Force</span>: Due to chemical gradient, namely different concentration of ions in the intra-<br><br>and extra-cellular fluids</li><li><span class=""cloze"" data-ordinal=""2"">Electrical Force</span>: Due to electrical gradient, positive ions are attracted toward the region with a<br><br>negative potential, and viceversa<br></li></ol><br>
+"
+Write down and explain Nernst equation	"Nernst equation comes from the electrochemical difference&nbsp;Δμ between two regions A and B , for a given ion family X comes from the formula&nbsp;<br><img src=""paste-dfedc901d8c11effcb15b1413247ba82a6f2d524.jpg""><br><img src=""paste-cd4525dd1906b08e8deacb051c8965b9ee432acf.jpg""><img src=""paste-bc472beffe2e31ab5c14be30450ce12aa66d3ec7.jpg"">"
+"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze-inactive"" data-ordinal=""3"">-90mV</span></li><li>Sodium = <span class=""cloze-inactive"" data-ordinal=""2"">50mV</span></li><li>Calcium = <span class=""cloze"" data-cloze=""150mV"" data-ordinal=""1"">[...]</span></li></ul>"	"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze-inactive"" data-ordinal=""3"">-90mV</span></li><li>Sodium = <span class=""cloze-inactive"" data-ordinal=""2"">50mV</span></li><li>Calcium = <span class=""cloze"" data-ordinal=""1"">150mV</span></li></ul><br>
+"
+"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze"" data-cloze=""&#x2D;90mV"" data-ordinal=""3"">[...]</span></li><li>Sodium = <span class=""cloze-inactive"" data-ordinal=""2"">50mV</span></li><li>Calcium = <span class=""cloze-inactive"" data-ordinal=""1"">150mV</span></li></ul>"	"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze"" data-ordinal=""3"">-90mV</span></li><li>Sodium = <span class=""cloze-inactive"" data-ordinal=""2"">50mV</span></li><li>Calcium = <span class=""cloze-inactive"" data-ordinal=""1"">150mV</span></li></ul><br>
+"
+"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze-inactive"" data-ordinal=""3"">-90mV</span></li><li>Sodium = <span class=""cloze"" data-cloze=""50mV"" data-ordinal=""2"">[...]</span></li><li>Calcium = <span class=""cloze-inactive"" data-ordinal=""1"">150mV</span></li></ul>"	"Voltages for the&nbsp;<br><ul><li>Potassium = <span class=""cloze-inactive"" data-ordinal=""3"">-90mV</span></li><li>Sodium = <span class=""cloze"" data-ordinal=""2"">50mV</span></li><li>Calcium = <span class=""cloze-inactive"" data-ordinal=""1"">150mV</span></li></ul><br>
+"
+"Assuming the membrane potential equal to V = −70mv , and sodium ions Na free to
+<br>move between inside and outside of the cell. In which direction ions will flow?"	"In this case we have:
+<br><br>E<sub>Na+</sub>&nbsp;+ = 50mV &gt; −70mV = V <sub>m
+</sub><br>This time, ions want to increase V and to do that they move from outside to inside"
+"Assuming the membrane potential equal to V = −70mv , and potassium ions K free to
+<br>move between inside and outside of the cell. In which direction ions will flow?"	"Since K is a positive ion, usually it tends to flow towards the negative region, however in
+<br>this case there is also the diffusial force that must be take into account. Using the
+<br>electrochemical equilibrium potential of potassium E we can easy obtain the right flow
+<br>direction. In this case we have:<br><img src=""paste-43d9a4d2a03d1bd79f88b2d9951cb9a89ded115c.jpg""><br>Therefore ions want to reduce V and to do that they move from inside to outside"
+"membrane potential at rest should be -70mv for it to work properly. only difusional and electrical forces (passive mechanism) no not allow to reach this specific potential, therefore the cell uses&nbsp;<span class=""cloze"" data-cloze=""an&#x20;active&#x20;mechanism&#x20;based&#x20;on&#x20;ion&#x20;pumps"" data-ordinal=""1"">[...]</span>"	"membrane potential at rest should be -70mv for it to work properly. only difusional and electrical forces (passive mechanism) no not allow to reach this specific potential, therefore the cell uses&nbsp;<span class=""cloze"" data-ordinal=""1"">an active mechanism based on ion pumps</span><br>
+"
+what are ion pumps?	ion pumps are specific proteins that move ions agains their electrochemical gradient by active transport (uses ATP energy). The most important one is the sodium-potassium pump
+"To conclude, the rest potential of the membrane is the combination of three mechanisms:&nbsp;<span class=""cloze"" data-cloze=""REST&#x20;POTENTIAL&#x20;&#x3D;&#x20;DIFFUSIONAL&#x20;FORCES&#x20;&#x2B;&#x20;ELECTRICAL&#x20;FORCES&#x20;&#x2B;&#x20;ION&#x20;PUMPS"" data-ordinal=""1"">[...]</span>"	"To conclude, the rest potential of the membrane is the combination of three mechanisms:&nbsp;<span class=""cloze"" data-ordinal=""1"">REST POTENTIAL = DIFFUSIONAL FORCES + ELECTRICAL FORCES + ION PUMPS</span><br>
+"
+"when the membrane is at rest potential (resting potential), then the cell membrane is said to be&nbsp;<span class=""cloze"" data-cloze=""&lt;b&gt;polarized&lt;&#x2F;b&gt;"" data-ordinal=""1"">[...]</span>"	"when the membrane is at rest potential (resting potential), then the cell membrane is said to be&nbsp;<span class=""cloze"" data-ordinal=""1""><b>polarized</b></span><br>
+<img src=""paste-36ee8e4a752e30bdf1da9861e12f24c96849f2ba.jpg"">"
+"In order to perform all the functions explained before, (Collection of information - integration -
+<br>Generation and propagation of a bit of information), the membrane changes its potential. The
+<br>variations of the MP have specific names:<br><span class=""cloze"" data-cloze=""&lt;br&gt;&lt;ul&gt;&lt;li&gt;Membrane&#x20;Depolarization&#x3A;&#x20;The&#x20;MP&#x20;increases&#x20;&#x28;&#x20;M&#x20;P&#x20;↑&#x20;&#x29;&lt;br&gt;&lt;&#x2F;li&gt;&lt;li&gt;Membrane&#x20;Polarization&#x20;&#x2F;&#x20;Repolarization&#x3A;&#x20;The&#x20;MP&#x20;decreases&#x20;and&#x20;returns&#x20;to&#x20;the&#x20;rest&#x20;potential&#x20;&#x28;&#x0A;&lt;br&gt;M&#x20;P&#x20;↓&lt;br&gt;&lt;&#x2F;li&gt;&lt;li&gt;Membrane&#x20;Hyperpolarization&#x3A;&#x20;The&#x20;MP&#x20;decreases&#x20;over&#x20;the&#x20;rest&#x20;potential&#x20;&#x28;&#x20;M&#x20;P&#x20;↓↓&#x20;&#x29;&lt;br&gt;&lt;&#x2F;li&gt;&lt;&#x2F;ul&gt;"" data-ordinal=""1"">[...]</span><br>"	"In order to perform all the functions explained before, (Collection of information - integration -
+<br>Generation and propagation of a bit of information), the membrane changes its potential. The
+<br>variations of the MP have specific names:<br><span class=""cloze"" data-ordinal=""1""><br><ul><li>Membrane Depolarization: The MP increases ( M P ↑ )<br></li><li>Membrane Polarization / Repolarization: The MP decreases and returns to the rest potential (
+<br>M P ↓<br></li><li>Membrane Hyperpolarization: The MP decreases over the rest potential ( M P ↓↓ )<br></li></ul></span><br><br>
+"
+"<span class=""cloze"" data-cloze=""Membrane&#x20;depolarization"" data-ordinal=""1"">[...]</span> is due to a current in the form of positively charged ions flowing into the
+<br>cell (or negatively charged ions flowing out of the cell) makes the membrane potential less negative
+<br>or even positive."	"<span class=""cloze"" data-ordinal=""1"">Membrane depolarization</span> is due to a current in the form of positively charged ions flowing into the
+<br>cell (or negatively charged ions flowing out of the cell) makes the membrane potential less negative
+<br>or even positive.<br>
+<img src=""paste-fc46fd1af06530ca89e4edb7876012ff775d441d.jpg"">"
+"<span class=""cloze"" data-cloze=""Membrane&#x20;repolarization"" data-ordinal=""1"">[...]</span> and membrane hyperpolarization are due to a current in the form of
+<br>positively charged ions flowing out of the cell (or negatively charged ions flowing into the cell) makes
+<br>the membrane potential more negative."	"<span class=""cloze"" data-ordinal=""1"">Membrane repolarization</span> and membrane hyperpolarization are due to a current in the form of
+<br>positively charged ions flowing out of the cell (or negatively charged ions flowing into the cell) makes
+<br>the membrane potential more negative.<br>
+<img src=""paste-2407a073cee3e7887bf90823f9155ad87581a90b.jpg"">"
+"The collection of information from other neural cells is performed by a part of the neuron called
+<br><span class=""cloze"" data-cloze=""the&#x20;dendritic&#x20;tree"" data-ordinal=""1"">[...]</span>.&nbsp;This part has a tree structure in order to maximize as much as possible its surface. <span class=""cloze"" data-cloze=""The&#x20;dendritic&#x20;tree"" data-ordinal=""1"">[...]</span> can be different between several kinds of neural cells, therefore the number of
+<br>connections can be different."	"The collection of information from other neural cells is performed by a part of the neuron called
+<br><span class=""cloze"" data-ordinal=""1"">the dendritic tree</span>.&nbsp;This part has a tree structure in order to maximize as much as possible its surface. <span class=""cloze"" data-ordinal=""1"">The dendritic tree</span> can be different between several kinds of neural cells, therefore the number of
+<br>connections can be different.<br>
+<img src=""paste-1623d41f474ea581e9a135a4783f6a5287d680e9.jpg"">"
+"An exchange of information between two or more cells happens through the <span class=""cloze"" data-cloze=""synaptic&#x20;connections"" data-ordinal=""1"">[...]</span>"	"An exchange of information between two or more cells happens through the <span class=""cloze"" data-ordinal=""1"">synaptic connections</span><br>
+"
+"The dentric tree has the same membrane of the other neuron's parts, however in addition to the<br><br>structures already seen, it contains also a structure called <span class=""cloze"" data-cloze=""synapse"" data-ordinal=""1"">[...]</span> needed to connect<br><br>two or more cells."	"The dentric tree has the same membrane of the other neuron's parts, however in addition to the<br><br>structures already seen, it contains also a structure called <span class=""cloze"" data-ordinal=""1"">synapse</span> needed to connect<br><br>two or more cells.<br>
+"
+"there exist two types
+<br>of synapses:<br><span class=""cloze"" data-cloze=""&lt;br&gt;&lt;ul&gt;&lt;li&gt;Electrical&#x20;Synapse&#x3A;&#x20;Based&#x20;on&#x20;electrical&#x20;signals&#x20;&#x28;Not&#x20;common&#x20;in&#x20;the&#x20;brain&#x29;&#x0A;&lt;&#x2F;li&gt;&lt;li&gt;Chemical&#x20;Synapse&#x3A;&#x20;Based&#x20;on&#x20;chemical&#x20;signals&#x20;&#x28;Common&#x20;in&#x20;brain&#x29;"" data-ordinal=""1"">[...]</span></li></ul>"	"there exist two types
+<br>of synapses:<br><span class=""cloze"" data-ordinal=""1""><br><ul><li>Electrical Synapse: Based on electrical signals (Not common in the brain)
+</li><li>Chemical Synapse: Based on chemical signals (Common in brain)</span></li></ul><br>
+"
+Describe electrical synapses	"Electrical synapses are not so common in the brain, however they are essential in the nervous
+<br>system. An electrical synapse allows a direct signal transmission from an electrical source (PRE
+<br>SYNAPTIC) to a electrical destination (POST SYNAPTIC), we use this terms since in most of the
+<br>cases the exchange of information is mono-directional (SENDER-&gt;RECEIVER). This type of synapse
+<br>allows a physical contact between the two cells through a protein called Gap Junction.<br><img src=""paste-f292b43d5ad870f235122438d18e20de68656b41.jpg""><br>"
+"The most common type of synapses in the brain is the <span class=""cloze"" data-cloze=""chemical&#x20;synapse"" data-ordinal=""1"">[...]</span>.&nbsp;"	"The most common type of synapses in the brain is the <span class=""cloze"" data-ordinal=""1"">chemical synapse</span>.&nbsp;<br>
+"
+describe chemical synapse	"The two cells are not in physical contact, between them there is a gap called synaptic cleft, inside it,
+<br>the exchange of neurotransmitter happens. At rest, the neurotransmitters are contained in the so
+<br>called synaptic vesicles:"
+"<div>No cloze ⁨3⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"	"<div>No cloze ⁨3⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"
+"The two cells are not in physical contact, between them there is a gap called <span class=""cloze"" data-cloze=""synaptic&#x20;cleft"" data-ordinal=""1"">[...]</span>, inside it,<br><br>the exchange of <span class=""cloze"" data-cloze=""neurotransmitter"" data-ordinal=""1"">[...]</span> happens. At rest, the <span class=""cloze"" data-cloze=""neurotransmitters"" data-ordinal=""1"">[...]</span> are contained in the so<br><br>called <span class=""cloze"" data-cloze=""synaptic&#x20;vesicles"" data-ordinal=""1"">[...]</span>"	"The two cells are not in physical contact, between them there is a gap called <span class=""cloze"" data-ordinal=""1"">synaptic cleft</span>, inside it,<br><br>the exchange of <span class=""cloze"" data-ordinal=""1"">neurotransmitter</span> happens. At rest, the <span class=""cloze"" data-ordinal=""1"">neurotransmitters</span> are contained in the so<br><br>called <span class=""cloze"" data-ordinal=""1"">synaptic vesicles</span><br>
+<img src=""paste-55ed529f7b5588ee44f48279faa32304a2bb052e.jpg"">"
+"<div>No cloze ⁨2⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"	"<div>No cloze ⁨2⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"
+"<div>No cloze ⁨4⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"	"<div>No cloze ⁨4⁩ found on card.
+Please either add a cloze deletion, or use the Empty Cards tool.<br><a href='https://anki.tenderapp.com/kb/problems/no-cloze-found-on-card'>More information</a></div>"
+"EPSP cause <span class=""cloze"" data-cloze=""Depolarization"" data-ordinal=""1"">[...]</span><br>IPSP cause <span class=""cloze"" data-cloze=""Hyperpolarization"" data-ordinal=""1"">[...]</span>"	"EPSP cause <span class=""cloze"" data-ordinal=""1"">Depolarization</span><br>IPSP cause <span class=""cloze"" data-ordinal=""1"">Hyperpolarization</span><br>
+<img src=""paste-c27a4126b811669f6d917c511a850cda885caf50.jpg""><br><img src=""paste-70d4716e4d8841e7c4b4e73449d7ca6540cf3b30.jpg"">"
+"We distinguish two different types of PSPs summations:
+<br><span class=""cloze"" data-cloze=""&lt;br&gt;&lt;ul&gt;&lt;li&gt;Spatial&#x20;Summation&#x3A;&#x20;The&#x20;effects&#x20;of&#x20;different&#x20;synapses&#x20;are&#x20;summed&amp;nbsp&#x3B;&lt;&#x2F;li&gt;&lt;li&gt;Temporal&#x20;Summation&#x3A;&#x20;The&#x20;effects&#x20;of&#x20;several&#x20;signals&#x20;on&#x20;the&#x20;same&#x20;synapse&#x20;are&#x20;summed&lt;&#x2F;li&gt;&lt;&#x2F;ul&gt;"" data-ordinal=""1"">[...]</span><br><br>"	"We distinguish two different types of PSPs summations:
+<br><span class=""cloze"" data-ordinal=""1""><br><ul><li>Spatial Summation: The effects of different synapses are summed&nbsp;</li><li>Temporal Summation: The effects of several signals on the same synapse are summed</li></ul></span><br><br><br>
+<img src=""paste-2b45a4894e1c6474879ee4dd4214d59d29216b5f.jpg""><img src=""paste-02c2f1cc362ada8f66efbe6529f713f29e0faa77.jpg""><br>Spatial and Temporal summations"
+"Summation, or <span class=""cloze"" data-cloze=""integration&#x20;of&#x20;information"" data-ordinal=""1"">[...]</span> happens in the <span class=""cloze"" data-cloze=""dendritic&#x20;tree"" data-ordinal=""1"">[...]</span>.
+<br>The result (POST-SYNAPTIC potential) is then propagated along the membrane up to the <span class=""cloze"" data-cloze=""axon&#x0A;&lt;br&gt;hillock"" data-ordinal=""1"">[...]</span>&nbsp;where the <span class=""cloze"" data-cloze=""binary&#x20;output&#x20;decision"" data-ordinal=""1"">[...]</span> is made. This binary decision consists of firing or not an
+<br>electrical signal called <span class=""cloze"" data-cloze=""action&#x20;potential"" data-ordinal=""1"">[...]</span>."	"Summation, or <span class=""cloze"" data-ordinal=""1"">integration of information</span> happens in the <span class=""cloze"" data-ordinal=""1"">dendritic tree</span>.
+<br>The result (POST-SYNAPTIC potential) is then propagated along the membrane up to the <span class=""cloze"" data-ordinal=""1"">axon
+<br>hillock</span>&nbsp;where the <span class=""cloze"" data-ordinal=""1"">binary output decision</span> is made. This binary decision consists of firing or not an
+<br>electrical signal called <span class=""cloze"" data-ordinal=""1"">action potential</span>.<br>
+"
+"The <span class=""cloze"" data-cloze=""voltage&#x2D;gated&#x20;Na&lt;sup&gt;&#x2B;&lt;&#x2F;sup&gt;"" data-ordinal=""1"">[...]</span> channel is the most complicated between the two. It can be in
+<br>three different states:<br><ol><li><span class=""cloze"" data-cloze=""Resting&#x20;State"" data-ordinal=""1"">[...]</span>: (non-conducting) In this state the activation gate is closed<br></li><li><span class=""cloze"" data-cloze=""Activated&#x20;State"" data-ordinal=""1"">[...]</span>: (conducting) The activation gate is open and then it allows the ion
+<br>passage<br></li><li><span class=""cloze"" data-cloze=""Inactivated&#x20;State"" data-ordinal=""1"">[...]</span>: (non-conducting) The inactivation gate is closed, it does not allow
+<br>the ion passage and neither the opening of the activation gate<br></li></ol>"	"The <span class=""cloze"" data-ordinal=""1"">voltage-gated Na<sup>+</sup></span> channel is the most complicated between the two. It can be in
+<br>three different states:<br><ol><li><span class=""cloze"" data-ordinal=""1"">Resting State</span>: (non-conducting) In this state the activation gate is closed<br></li><li><span class=""cloze"" data-ordinal=""1"">Activated State</span>: (conducting) The activation gate is open and then it allows the ion
+<br>passage<br></li><li><span class=""cloze"" data-ordinal=""1"">Inactivated State</span>: (non-conducting) The inactivation gate is closed, it does not allow
+<br>the ion passage and neither the opening of the activation gate<br></li></ol><br>
+<img src=""paste-2822887374f655dbbe01c3c02b7ffbcc0c0201b8.jpg""><img src=""paste-d38b0003be16d73030719bf4b0c8bb8af2603ffd.jpg""><br><img src=""paste-9528508419e2a4a34eff8d6c9b324efefcd2ea1b.jpg"">"
+"<span class=""cloze"" data-cloze=""This&#x20;voltage&#x2D;gated&#x20;Na&lt;sup&gt;&#x2B;&lt;&#x2F;sup&gt;"" data-ordinal=""1"">[...]</span> has three different voltage thresholds<br><ol><li><span class=""cloze"" data-cloze=""Opening&#x20;threshold&#x20;potential"" data-ordinal=""1"">[...]</span>: ( −60mV ) Gate is open, ions can cross
+<br></li><li><span class=""cloze"" data-cloze=""Inactivation&#x20;threshold&#x20;potential"" data-ordinal=""1"">[...]</span>: ( +30mV ) (strong depolarization) The gate is
+<br>inactivated (it cannot be open)
+<br></li><li><span class=""cloze"" data-cloze=""Closing&#x20;threshold&#x20;potential"" data-ordinal=""1"">[...]</span>: ( −70mV ) The gate return at the initial closed state (ions
+<br>cannot cross, but the gate can be open again)<br></li></ol>"	"<span class=""cloze"" data-ordinal=""1"">This voltage-gated Na<sup>+</sup></span> has three different voltage thresholds<br><ol><li><span class=""cloze"" data-ordinal=""1"">Opening threshold potential</span>: ( −60mV ) Gate is open, ions can cross
+<br></li><li><span class=""cloze"" data-ordinal=""1"">Inactivation threshold potential</span>: ( +30mV ) (strong depolarization) The gate is
+<br>inactivated (it cannot be open)
+<br></li><li><span class=""cloze"" data-ordinal=""1"">Closing threshold potential</span>: ( −70mV ) The gate return at the initial closed state (ions
+<br>cannot cross, but the gate can be open again)<br></li></ol><br>
+<img src=""paste-79b3dfa138bafa6a50d51acc9a3f83d51b5582f7.jpg"">"
+"<span class=""cloze"" data-cloze=""voltage&#x2D;gated&#x20;K"" data-ordinal=""1"">[...]</span>
+&nbsp;is simpler and has only two states (open or close*) and two potential
+<br>thresholds.<br><ol><li><span class=""cloze"" data-cloze=""Opening&#x20;threshold&#x20;potential&#x3A;&#x20;&#x28;&#x20;&#x2B;30mV&#x20;&#x29;"" data-ordinal=""1"">[...]</span> The gate opens, ions can cross</li><li><span class=""cloze"" data-cloze=""Closing&#x20;threshold&#x20;potential&#x3A;&#x20;&#x28;&#x20;&amp;lt&#x3B;&#x20;−70mV&#x20;&#x29;"" data-ordinal=""1"">[...]</span> The gate returns to initial close state (ions
+<br>cannot cross, it can be open)<br></li></ol>"	"<span class=""cloze"" data-ordinal=""1"">voltage-gated K</span>
+&nbsp;is simpler and has only two states (open or close*) and two potential
+<br>thresholds.<br><ol><li><span class=""cloze"" data-ordinal=""1"">Opening threshold potential: ( +30mV )</span> The gate opens, ions can cross</li><li><span class=""cloze"" data-ordinal=""1"">Closing threshold potential: ( &lt; −70mV )</span> The gate returns to initial close state (ions
+<br>cannot cross, it can be open)<br></li></ol><br>
+<img src=""paste-5e5f9f82519a2d7b1e54e4b6d2cb783b099659a7.jpg"">"
+"Action potential step-by-step description:<br><ol><li><span class=""cloze"" data-cloze=""Initial&#x20;Depolarization"" data-ordinal=""1"">[...]</span> to the Na<sup>+</sup>&nbsp;opening threshold (-60mV)</li><li><span class=""cloze"" data-cloze=""Fast&#x20;depolarization"" data-ordinal=""1"">[...]</span> due to Na<sup>+ </sup>flows into cell</li><li><span class=""cloze"" data-cloze=""switch&#x20;channels"" data-ordinal=""1"">[...]</span> on peak --&gt; inactivation of Na<sup>+ </sup>and opening of K<sup>+</sup>&nbsp;channels (+30mV)</li><li><span class=""cloze"" data-cloze=""Repolarization"" data-ordinal=""1"">[...]</span> due to K<sup>+ </sup>flowing outside of the cell</li><li><span class=""cloze"" data-cloze=""undershoot&#x20;&#x28;hyperpolarization&#x29;"" data-ordinal=""1"">[...]</span> until the K<sup>+</sup>&nbsp;channels are closed</li><li><span class=""cloze"" data-cloze=""return&#x20;to&#x20;resting&#x20;potential"" data-ordinal=""1"">[...]</span> due to the sodium-potassium ion pump</li></ol>"	"Action potential step-by-step description:<br><ol><li><span class=""cloze"" data-ordinal=""1"">Initial Depolarization</span> to the Na<sup>+</sup>&nbsp;opening threshold (-60mV)</li><li><span class=""cloze"" data-ordinal=""1"">Fast depolarization</span> due to Na<sup>+ </sup>flows into cell</li><li><span class=""cloze"" data-ordinal=""1"">switch channels</span> on peak --&gt; inactivation of Na<sup>+ </sup>and opening of K<sup>+</sup>&nbsp;channels (+30mV)</li><li><span class=""cloze"" data-ordinal=""1"">Repolarization</span> due to K<sup>+ </sup>flowing outside of the cell</li><li><span class=""cloze"" data-ordinal=""1"">undershoot (hyperpolarization)</span> until the K<sup>+</sup>&nbsp;channels are closed</li><li><span class=""cloze"" data-ordinal=""1"">return to resting potential</span> due to the sodium-potassium ion pump</li></ol><br>
+<img src=""paste-853ef089a009645002fccc1c92e34fe9d8cf06aa.jpg"">"
+Brain consists of 2 kinds of matters:	Grey matter: cell bodies and dendrites (processing)<br>White matter: myelinated axons of the neurons (propagation)
+2 types of folds in brain are called	"Gyrus: (plural: gyri) Outwards folding
+<br>Sulcus: (plural: sulci) Inward folding"
+Some of the most important areas inside subcortical areas are:	"Thalamus: It controls traffic from most of peripheries to the cortex (sensory afferent)
+<br>Brainstem
+<br>Basal ganglia
+<br>Cerebellum"
+brain organization spatial levels:&nbsp;	Layers --&gt; Columns --&gt; areas --&gt; circuits
+"<span class=""cloze-inactive"" data-ordinal=""1"">Short-term plasticity:</span> (No structural change) Short training time required but it also have short
+<br>effect duration
+<br><span class=""cloze"" data-cloze=""Long&#x2D;term&#x20;plasticity"" data-ordinal=""2"">[...]</span> (Structural change) Longer training time required, longer effect duration"	"<span class=""cloze-inactive"" data-ordinal=""1"">Short-term plasticity:</span> (No structural change) Short training time required but it also have short
+<br>effect duration
+<br><span class=""cloze"" data-ordinal=""2"">Long-term plasticity</span> (Structural change) Longer training time required, longer effect duration<br>
+მეცადინეობის პონტი. spaced repetition type beat"
+"<span class=""cloze"" data-cloze=""Short&#x2D;term&#x20;plasticity&#x3A;"" data-ordinal=""1"">[...]</span> (No structural change) Short training time required but it also have short
+<br>effect duration
+<br><span class=""cloze-inactive"" data-ordinal=""2"">Long-term plasticity</span> (Structural change) Longer training time required, longer effect duration"	"<span class=""cloze"" data-ordinal=""1"">Short-term plasticity:</span> (No structural change) Short training time required but it also have short
+<br>effect duration
+<br><span class=""cloze-inactive"" data-ordinal=""2"">Long-term plasticity</span> (Structural change) Longer training time required, longer effect duration<br>
+მეცადინეობის პონტი. spaced repetition type beat"
+"<span class=""cloze-inactive"" data-ordinal=""1"">Axonal Pruning:</span> (Loss of an axon) Pre-synaptic neuron loses an axon branch, therefore we loses<br><br>their synapses<br><br><span class=""cloze"" data-cloze=""Axonal&#x20;Sprouting&#x3A;&#x20;&#x28;Sprouting&#x20;of&#x20;an&#x20;axon&#x29;"" data-ordinal=""2"">[...]</span> An axon of a neuron sprouts (creates new branches) to<br><br>fill vacant synapses on another neuron"	"<span class=""cloze-inactive"" data-ordinal=""1"">Axonal Pruning:</span> (Loss of an axon) Pre-synaptic neuron loses an axon branch, therefore we loses<br><br>their synapses<br><br><span class=""cloze"" data-ordinal=""2"">Axonal Sprouting: (Sprouting of an axon)</span> An axon of a neuron sprouts (creates new branches) to<br><br>fill vacant synapses on another neuron<br>
+Axonal sprouting/pruning is a stronger structural change respect to long-term synaptic<br><br>plasticity<br><br>Axonal pruning is not always a bad thing,"
+"<span class=""cloze"" data-cloze=""Axonal&#x20;Pruning&#x3A;"" data-ordinal=""1"">[...]</span> (Loss of an axon) Pre-synaptic neuron loses an axon branch, therefore we loses<br><br>their synapses<br><br><span class=""cloze-inactive"" data-ordinal=""2"">Axonal Sprouting: (Sprouting of an axon)</span> An axon of a neuron sprouts (creates new branches) to<br><br>fill vacant synapses on another neuron"	"<span class=""cloze"" data-ordinal=""1"">Axonal Pruning:</span> (Loss of an axon) Pre-synaptic neuron loses an axon branch, therefore we loses<br><br>their synapses<br><br><span class=""cloze-inactive"" data-ordinal=""2"">Axonal Sprouting: (Sprouting of an axon)</span> An axon of a neuron sprouts (creates new branches) to<br><br>fill vacant synapses on another neuron<br>
+Axonal sprouting/pruning is a stronger structural change respect to long-term synaptic<br><br>plasticity<br><br>Axonal pruning is not always a bad thing,"
+"during&nbsp; <span class=""cloze"" data-cloze=""axonal&#x20;regeneration"" data-ordinal=""1"">[...]</span> axon of a neuron regenerates
+<br>after an injury.&nbsp;"	"during&nbsp; <span class=""cloze"" data-ordinal=""1"">axonal regeneration</span> axon of a neuron regenerates
+<br>after an injury.&nbsp;<br>
+This kind of deep regeneration is more typical of early life stages and less common in&nbsp;<br>adults."
+"One of the redundancy methods in brain to increase robustness of brain functionalities after failures is called
+<br><span class=""cloze"" data-cloze=""unmasking&#x20;latent&#x20;synaptic&#x20;connections"" data-ordinal=""1"">[...]</span>"	"One of the redundancy methods in brain to increase robustness of brain functionalities after failures is called
+<br><span class=""cloze"" data-ordinal=""1"">unmasking latent synaptic connections</span><br>
+in which there are synapses that are there but are not used
+<br>until they are needed because of a lesion."
+At what temporal scale does the brain operate?	"the brain operates at temporal scale of milliseconds. However this time can
+<br>be increased by the use of alcoll and drugs, but it can pass from ms to few more
+<br>ms, but not an another temporal scale."
+At which different spatial scales may we look at its functioning?	"At scale of nanometer we can observe the membrane of the cell, at scale of
+<br>micrometer we can observe the soma, and the organization of the neuron in 6
+<br>vertical layers, and the organization in columns where the neuron performs the
+<br>same function and respond in the same way at the same stimuli. At level of
+<br>centimeters we can observe the Broadmann areas which perform several task.
+<br>More regions can perform the same function. At the level of cm we can also
+<br>observe the general functioning of the brain circuits and how the parts of it
+<br>cooperates."
+"Put the following levels of cortical organization in a hierarchical order
+<br>(from the smaller to the larger):&nbsp;<br>• A. Brodmann areas&nbsp;<br>• B. Cortical columns&nbsp;<br>• C. Brain lobes&nbsp;<br>• D. Cortical layers&nbsp;<br>• E. Brain circuits"	"• A. Brodmann areas 3
+<br>• B. Cortical columns 2
+<br>• C. Brain lobes 4
+<br>• D. Cortical layers 1
+<br>• E. Brain circuits 5"
+"Indicate which of the brain lobes houses the visual function:<br>• A. Frontal
+<br>• B. Temporal
+<br>• C. Parietal
+<br>• D. Occipital&nbsp;"	• D. Occipital&nbsp;
+"For each of the following brain areas, indicate if they are cortical or
+<br>subcortical:<br>• A. Thalamus&nbsp;&nbsp;<br>• B. Primary motor area&nbsp;&nbsp;<br>• C. Cerebellum&nbsp;&nbsp;<br>• D. Broca (language) area&nbsp;&nbsp;<br>• E. Brainstem&nbsp;"	"• A. Thalamus SUBCORTICAL
+<br>• B. Primary motor area CORTICAL
+<br>• C. Cerebellum SUBCORTICAL
+<br>• D. Broca (language) area CORTICAL
+<br>• E. Brainstem SUBCORTICAL"
+Does the short-term synaptic plasticity involve:<br>• A. A structural change in the post-synaptic membrane&nbsp;&nbsp;<br>• B. An increased number of membrane receptors&nbsp;&nbsp;<br>• C. The amount of neurotransmitter released in the synaptic cleft&nbsp;<br>• D. An irreversible change in the synaptic structure&nbsp;	"• A. A structural change in the post-synaptic membrane LONG-TERM
+<br>• B. An increased number of membrane receptors LONG-TERM
+<br>• C. The amount of neurotransmitter released in the synaptic cleft X SHORT-
+<br>TERM
+<br>• D. An irreversible change in the synaptic structure NOT TRUE"
+List the four main neuronal mechanisms behind brain plasticity	"The first SYNAPTIC PLASTICITY. When we learn there in an incremental
+<br>of the neurotransmitter between the presynaptic and the postsinaptic cell. If
+<br>we make something for several ours, the amount of neurotransmitter increases.
+<br>The second is the AXONAL SPROUTING (OR PRUNING) that consists in the
+<br>formation of new synapses. The third is the AXONAL REGENERATION. This
+<br>is typical in the prenatal period and in critical situation but less in adult age.
+<br>Finally there is the UNMASKING OF LATENT SYNAPTIC CONNECTIONS.
+<br>The synapses are not used until they are need because of a lesion."
+Intracellular recordings can be made with two different ways that lead to the same outcome:	"<ul><li>Sharp electrodes inserted through the membrane into the cell
+</li><li>Patch electrodes sealed to the surface of the membrane providing electrical contact with the interior of the cell</li></ul><div>Patch electrodes does not require an actual membrane penetration and usually is preferred since it is
+<br>more easy in practice.<br></div>"
+what and how do we measure with extracellular recording?	electrodes are placed near the membrane, not penetrating it. we measure the potential of the extracellular fluid. exact moment of AP is captured, but not its shape or amplitude, as amplitude is reduced&nbsp;( 0.1mV instead of 100mV ). membrane variations arent captured, thus the result is a spike train
+what is captured when we measure the activity of a small group of neurons?&nbsp;	"instead of AP (very short and impossible to synchronize) we measure the extracellular current flow
+<br>resulting from the linear summation of PSP"
+"An important characteristic of a pyramidal neuron is the <span class=""cloze"" data-cloze=""longitudinal"" data-ordinal=""1"">[...]</span> shape of the dendritic tree that
+<br>allow us to distinguish two different types of dendrites:
+<br><span class=""cloze"" data-cloze=""Apical&#x20;dendrite"" data-ordinal=""1"">[...]</span>: In the upper part of the cell (above soma). It is usually projected toward the
+<br>cortical surface
+<br><span class=""cloze"" data-cloze=""Basal&#x20;dendrite"" data-ordinal=""1"">[...]</span>: In the lower part of the cell (below soma). It usually projected toward the center
+<br>of the brain"	"An important characteristic of a pyramidal neuron is the <span class=""cloze"" data-ordinal=""1"">longitudinal</span> shape of the dendritic tree that
+<br>allow us to distinguish two different types of dendrites:
+<br><span class=""cloze"" data-ordinal=""1"">Apical dendrite</span>: In the upper part of the cell (above soma). It is usually projected toward the
+<br>cortical surface
+<br><span class=""cloze"" data-ordinal=""1"">Basal dendrite</span>: In the lower part of the cell (below soma). It usually projected toward the center
+<br>of the brain<br>
+<img src=""paste-bdd8d3e5742d5d80af8b57f4ec20ac67c1a5ae38.jpg""><br>These kind of cells are arranged in parallel forming palisades in the brain cortex."
+"<span class=""cloze"" data-cloze=""Cortico&#x2D;cortical&#x20;&#x28;CC&#x29;"" data-ordinal=""1"">[...]</span> synapses usually on the&nbsp;<span class=""cloze"" data-cloze=""&#x20;apical"" data-ordinal=""1"">[...]</span> dendrites. (Connect cortical neurons)&nbsp;<br><br><span class=""cloze"" data-cloze=""&#x20;Talamo&#x2D;cortical&#x20;&#x28;TC&#x29;"" data-ordinal=""1"">[...]</span> synapses usually on the basal dentdites. (Connect thalamus with cortical neurons)"	"<span class=""cloze"" data-ordinal=""1"">Cortico-cortical (CC)</span> synapses usually on the&nbsp;<span class=""cloze"" data-ordinal=""1""> apical</span> dendrites. (Connect cortical neurons)&nbsp;<br><br><span class=""cloze"" data-ordinal=""1""> Talamo-cortical (TC)</span> synapses usually on the basal dentdites. (Connect thalamus with cortical neurons)<br>
+"
+"To summarize, the dipole direction depends on:&nbsp;<br>1.&nbsp;<span class=""cloze"" data-cloze=""&#x20;Synapse&#x20;nature&#x3A;&#x20;&#x28;ESPSP&#x20;or&#x20;ISPSP&#x29;"" data-ordinal=""1"">[...]</span><br>2.&nbsp;<span class=""cloze"" data-cloze=""Synapse&#x20;position&#x3A;&#x20;&#x28;&#x28;CC&#x20;or&#x20;TC&#x29;"" data-ordinal=""1"">[...]</span>"	"To summarize, the dipole direction depends on:&nbsp;<br>1.&nbsp;<span class=""cloze"" data-ordinal=""1""> Synapse nature: (ESPSP or ISPSP)</span><br>2.&nbsp;<span class=""cloze"" data-ordinal=""1"">Synapse position: ((CC or TC)</span><br>
+<img src=""paste-7630c3a1fabab6be13ec1efb829349084b5136e0.jpg"">"
+"<span class=""cloze"" data-cloze=""Gyri"" data-ordinal=""1"">[...]</span> are more efficient generator os EEG than <span class=""cloze"" data-cloze=""sulci"" data-ordinal=""1"">[...]</span> (both because of the favorable orientation of the isopotential lines with respect to the scalp and because the dipole layers in opposing sulci cortices tend to cancel each other)"	"<span class=""cloze"" data-ordinal=""1"">Gyri</span> are more efficient generator os EEG than <span class=""cloze"" data-ordinal=""1"">sulci</span> (both because of the favorable orientation of the isopotential lines with respect to the scalp and because the dipole layers in opposing sulci cortices tend to cancel each other)<br>
+"
+EEG depends on timing since it measures:&nbsp;<br>A. synchronous electrical activity of neural populations<br><br>B. asinchronous electrical activity of neural populations<br><br>C. Action potentials of neural populations	A.
+"The amplitude of the signal is:
+<br>Linearly proportional to the amount of <span class=""cloze"" data-cloze=""synchronous&#x20;neurons"" data-ordinal=""1"">[...]</span>
+<br>Proportional to the <span class=""cloze"" data-cloze=""square&#x20;root&#x20;of&#x20;the&#x20;amount&#x20;of&#x20;asynchronous&#x20;neurons"" data-ordinal=""1"">[...]</span>, because of&nbsp; intracortical cancellation"	"The amplitude of the signal is:
+<br>Linearly proportional to the amount of <span class=""cloze"" data-ordinal=""1"">synchronous neurons</span>
+<br>Proportional to the <span class=""cloze"" data-ordinal=""1"">square root of the amount of asynchronous neurons</span>, because of&nbsp; intracortical cancellation<br>
+<img src=""paste-453757dafd24bb4d8e7cf52b1ca2f8fa93398f3d.jpg"">"
+"The EEG signal recorded is weak when we perform a complex task
+<br>because <span class=""cloze"" data-cloze=""neurons&#x20;work&#x20;asynchronously&#x20;and&#x20;then&#x20;the&#x20;resulting&#x20;dipole&#x20;is&#x20;weak&#x2E;"" data-ordinal=""1"">[...]</span>"	"The EEG signal recorded is weak when we perform a complex task
+<br>because <span class=""cloze"" data-ordinal=""1"">neurons work asynchronously and then the resulting dipole is weak.</span><br>
+<img src=""paste-046e6c5b5ee0e365bcbb63391611422db55e52ae.jpg"">"
+"At rest, we have so called <span class=""cloze"" data-cloze=""thalamus&#x20;synchronization"" data-ordinal=""1"">[...]</span> in which neurons synchronize respect to <span class=""cloze"" data-cloze=""thalamus"" data-ordinal=""1"">[...]</span> this cause the idel rhythmic oscillation (about 10Hz)&nbsp;"	"At rest, we have so called <span class=""cloze"" data-ordinal=""1"">thalamus synchronization</span> in which neurons synchronize respect to <span class=""cloze"" data-ordinal=""1"">thalamus</span> this cause the idel rhythmic oscillation (about 10Hz)&nbsp;<br>
+"
+"complex taxk --&gt; <span class=""cloze"" data-cloze=""High&#x20;neuronal&#x20;asynchronism"" data-ordinal=""1"">[...]</span><br><br>Simple task --&gt; <span class=""cloze"" data-cloze=""Thalamus&#x20;synchronization"" data-ordinal=""1"">[...]</span>&nbsp;"	"complex taxk --&gt; <span class=""cloze"" data-ordinal=""1"">High neuronal asynchronism</span><br><br>Simple task --&gt; <span class=""cloze"" data-ordinal=""1"">Thalamus synchronization</span>&nbsp;<br>
+"
+"EEG signal is mainly constituted by <span class=""cloze"" data-cloze=""post&#x2D;synaptic&#x20;potentials&#x20;&#x28;PSP&#x29;"" data-ordinal=""1"">[...]</span>&nbsp;"	"EEG signal is mainly constituted by <span class=""cloze"" data-ordinal=""1"">post-synaptic potentials (PSP)</span>&nbsp;<br>
+because they&nbsp;are slower and can sum up more easily in large groups of neurons, Action&nbsp;potentials instead are fast and more difficult to add up in time."
+"Limitations in EEG:<br><br>1. <span class=""cloze"" data-cloze=""Spatial&#x20;blur"" data-ordinal=""1"">[...]</span><br>2. <span class=""cloze"" data-cloze=""Low&#x20;signal&#x2D;to&#x2D;noise&#x20;ration"" data-ordinal=""1"">[...]</span><br>3. <span class=""cloze"" data-cloze=""Near&#x20;electrodes&#x20;record&#x20;partially&#x20;overlapped&#x20;&#x28;correlated&#x29;&#x20;signals"" data-ordinal=""1"">[...]</span><br>4. <span class=""cloze"" data-cloze=""Multiple&#x20;sources&#x20;contribute&#x20;to&#x20;the&#x20;single&#x20;electrode&#x20;signal"" data-ordinal=""1"">[...]</span><br>5. <span class=""cloze"" data-cloze=""reference&#x20;choice&#x20;&#x2D;&#x20;deep&#x20;sources&#x20;&#x2D;&#x2D;&amp;gt&#x3B;&#x20;more&#x20;closed&#x20;field&#x2C;&#x20;more&#x20;distance&#x2C;&#x20;attenuation&#x2C;&#x20;more&#x20;spatial&#x20;blur&#x2E;&amp;nbsp&#x3B;"" data-ordinal=""1"">[...]</span>"	"Limitations in EEG:<br><br>1. <span class=""cloze"" data-ordinal=""1"">Spatial blur</span><br>2. <span class=""cloze"" data-ordinal=""1"">Low signal-to-noise ration</span><br>3. <span class=""cloze"" data-ordinal=""1"">Near electrodes record partially overlapped (correlated) signals</span><br>4. <span class=""cloze"" data-ordinal=""1"">Multiple sources contribute to the single electrode signal</span><br>5. <span class=""cloze"" data-ordinal=""1"">reference choice - deep sources --&gt; more closed field, more distance, attenuation, more spatial blur.&nbsp;</span><br>
+"
+"advantages of EEG:<br><br><span class=""cloze"" data-cloze=""Noninvasive&#x0A;&lt;br&gt;Easy&#x20;to&#x20;use&#x20;&#x28;no&#x20;complex&#x20;instrumentation&#x29;&#x0A;&lt;br&gt;Portable&#x0A;&lt;br&gt;Inexpensive&#x0A;&lt;br&gt;Scalable&#x20;&#x28;From&#x20;3&#x20;to&#x20;n&#x20;electrodes&#x29;&#x0A;&lt;br&gt;Covers&#x20;the&#x20;entire&#x20;cortical&#x20;surface&#x0A;&lt;br&gt;Excellent&#x20;temporal&#x20;resolution"" data-ordinal=""1"">[...]</span>"	"advantages of EEG:<br><br><span class=""cloze"" data-ordinal=""1"">Noninvasive
+<br>Easy to use (no complex instrumentation)
+<br>Portable
+<br>Inexpensive
+<br>Scalable (From 3 to n electrodes)
+<br>Covers the entire cortical surface
+<br>Excellent temporal resolution</span><br>
+"
+"1. Put the following levels of brain electrical correlates in sequence according to their
+<br>increasing spatial resolution (from the less to the more detailed):
+<br>A. ECoG: Electrocorticography
+<br>B. LFP: Local field potentials
+<br>C. IP: Intracellular Potentials
+<br>D. S-EEG: Stereo-electroencephalography
+<br>E. EEG: Electroencephalography
+<br>F. EP: Extracellular Potentials"	"• A. ECoG: Elettrocorticography 2
+<br>• B. LFP: Local field potentials 4
+<br>• C. IP: Intracellular Potentials 6
+<br>• D. S-EEG: Stereo-electroencephalography 3
+<br>• E. EEG: Electroencephalography 1
+<br>• F. EP: Extracellular Potentials 5"
+"To record in vitro measures of the membrane potential over the dendrites of a neural
+<br>cell, you can use:
+<br>A. Intracellular measures
+<br>B. Extracellular measures"	A<br>
+Describe which part of the pyramidal neuron acts as a current dipole and how	"The part is the dendrite (or apical dendrite) because it is like a dipole with
+<br>one charge here at distance d from the other which is the basal dendrite (but we
+<br>can consider also the soma) of the cell. When the post-synaptic neuron receives
+<br>an excitatory signal from an active axon terminal, positive ions flows in the den-
+<br>drite. So the intracellular space becomes more positive making the extracellular
+<br>space relatively more negative at the reception site. The extracellular space
+<br>at the basal dendrite, above the soma, is now more positive, so it makes the
+<br>intracellular space more negative. Now in the apical dendrite we have a positive
+<br>charges and in the basal dendrite or in the soma the negative ones. It means
+<br>that a current from + (source) to -(sink) will be generated, creating an intracel-
+<br>lular current, and the charges in the extracellular space create an extracellular
+<br>current that has opposite direction with respect to the intracellular current. For
+<br>an hinibitory cell is the same, but the polarity of the dipole is reversed."
+"Indicate which of the following factors affect the amplitude of EEG signals (multiple
+<br>answers):
+<br>A. Open/closed field
+<br>B. Neurons’ orientation
+<br>C. Synchronicity of the neural activity
+<br>D. Distance between the neurons and the electrodes"	"• A. Open/closed field X
+<br>• B. Neurons orientation X
+<br>• C. Synchronicity of the neural activity X
+<br>• D. Distance between the neurons and the electrodes X"
+"Which electrical variation of the membrane potential mainly contributes to EEG?
+<br>A. The action potential
+<br>B. The spike train
+<br>C. The resting membrane potential
+<br>D. The post-synaptic potentials"	"• A. The action potential
+<br>• B. The spike train
+<br>• C. The resting membrane potential
+<br>• D. The post-synaptic potentials X"
+Which regions of the brain mainly contributes to scalp EEG? Why?	"The part is the cortex because pyramidal neurons produce an open field and
+<br>in particular neurons that are on the gyri produce most of the EEG signal with
+<br>respect to neurons that are in the sulci. All the neurons are oriented normally
+<br>to the cortical surface, so the signal is propagated on the surface. But since
+<br>the neurons can be seen as dipole and the produce current, this current is more
+<br>captured in the gyri. While in the sulci it is attenuated, because we have, in a
+<br>double layer of the cortical surface; in this case on each layer we have a current
+<br>that has the same intensity and direction but opposite verse. It means that in
+<br>the sulci the current eliminate each other, so the signal in this part will not be recorded from the EEG. Moreover the neurons are organized in palisades,
+<br>or more specifically they are parallel each other, it means that the resulting
+<br>signal of each neuron is summed up to that of the other neurons. The last reason
+<br>is the longitudinal shape of the pyramidal neurons, so the signal generated
+<br>flows towards the cortical surface."
+List at least 4 limitations of scalp EEG recordings	"• Low SNR
+<br>• Reference choice
+<br>• Spatial blur, i.e. attenuation and spread of the potential with distance
+<br>• Multiple sources contribute to the single electrode signal
+<br>• Near electrodes record partially overlapped (correlated) signals"
+List at least 5 advantages of scalp EEG recordings	"• Non invasive
+<br>• Easy to use for practical applications and researches
+<br>• Portable wherever we want
+<br>• Inexpensive its cost is only of few thousand of euro
+<br>• Covers the entire cortical surface
+<br>• Excellent temporal resolution because the propagation is instanta-
+<br>neous
+<br>• It can be used more easily incorporated for simultaneous use with func-
+<br>tional magnetic resonance imaging (fMRI), transcranial magnetic stimu-
+<br>lation and transcranial direct current stimulation."
+"In <span class=""cloze"" data-cloze=""neural&#x20;encoding"" data-ordinal=""1"">[...]</span> we want to find a ""rule"" f that links stimulus, given as input to the neuron, to its
+spikes train response (output)."	"In <span class=""cloze"" data-ordinal=""1"">neural encoding</span> we want to find a ""rule"" f that links stimulus, given as input to the neuron, to its
+spikes train response (output).<br>
+<img src=""paste-35f9cc93537b5ce5f086472c44463ac46f751523.jpg"">"
+"Neural encoding is important for three main reasons:
+<br><span class=""cloze"" data-cloze=""Understand&#x20;behavior&#x20;of&#x20;a&#x20;neuron&#x20;respect&#x20;to&#x20;different&#x20;stimuli&#x20;&#x28;e&#x2E;g&#x2E;&#x20;visual&#x20;neuron&#x3A;&#x20;reaction&#x20;to&#x20;color&#x0A;&lt;br&gt;or&#x20;orientation&#x29;&#x0A;&lt;br&gt;Replicate&#x20;neuron&#x27;s&#x20;behavior&#x20;in&#x20;a&#x20;simulation&#x0A;&lt;br&gt;Predict&#x20;neuron&#x27;s&#x20;response&#x20;to&#x20;a&#x20;new&#x20;stimulus"" data-ordinal=""1"">[...]</span>"	"Neural encoding is important for three main reasons:
+<br><span class=""cloze"" data-ordinal=""1"">Understand behavior of a neuron respect to different stimuli (e.g. visual neuron: reaction to color
+<br>or orientation)
+<br>Replicate neuron's behavior in a simulation
+<br>Predict neuron's response to a new stimulus</span><br>
+"
+"In <span class=""cloze"" data-cloze=""neural&#x20;decoding"" data-ordinal=""1"">[...]</span> we want to find a inverse ""rule"" f
+<br>that induced it."	"In <span class=""cloze"" data-ordinal=""1"">neural decoding</span> we want to find a inverse ""rule"" f
+<br>that induced it.<br>
+<img src=""paste-3bdc8d596c4b4094f9863e7b557bf24ca4fa54d2.jpg"">"
+"Neural encoding is important for three main reasons:
+<br>"	Understand behavior of a neuron respect to different stimuli (e.g. visual neuron: reaction to color&nbsp;<br>or orientation)&nbsp;<br>Replicate neuron's behavior in a simulation&nbsp;<br>Predict neuron's response to a new stimulus
+Neural decoding is important for two main reasons:	"<ul><li>Understand behavior of a neuron respect to different inputs from other neurons
+</li><li>Build human-brain interfaces. Our prosthesis must be able to decode signal from subject's brain</li></ul>"
+RATE-CODING HYPOTHESIS	"suggests that spike frequency (or rate) is the
+<br>fundamental mechanism of coding information"
+The spike-count firing rate formula	"r is the time average of the neural response function over the&nbsp;<br>duration of the trial:<br><br><img src=""paste-6d47ded731810474f50f101ddf9436f95e51be05.jpg""><img src=""paste-98212a57418398c8bc1d39c1f8b5c92ef4b3ef0d.jpg"">"
+average firing rate &lt; r &gt;	"<img src=""paste-bbed5d1878bb57ce1811fd9b00a06f016c2765fe.jpg""><br>In order to define stimulus-response link, since responses change over time, we cannot compute r
+<br>for a single trial but we have to perform several runs and compute an average of r collected."
+how do we construct tuning curves	"We focus on a single property s and we assume it’s stationary along each trial. For several different stimuli s ∈ S we compute their relative average firing rates &lt; r &gt; in order to&nbsp;define a function f (s) that describes stimulus-response link.<br>&lt; r &gt;= f (s)
+(TUNING CURVE OF NEURAL RESPONSE)"
+"The Poisson spike generator is a stochastic model of the neural response to a stimulus property s . It
+<br>produces spike trains with the same r of the neuronal response, before built it we have to collect a
+<br>estimate of r , so we have the following two steps to follow:"	"Step 1: Experimental estimation of the firing rate r_est (tuning curve)
+<br>Step 2: Build a spike generator based on a Poisson distribution with r = r_est"
+limitation of the poisson generator	"absolute and relative refractory periods.<br><img src=""paste-4aecca4532646a75259e9f63469894439eacbfc1.jpg""><br><img src=""paste-70554d3b34599d8143357c9bd97fe352e65df80a.jpg"">"
+what is different with Constrained Poisson Generator?	"In our previous neuron model we did not consider the refractory periods, in the actual
+<br>neuron, the minimum inter-spike distance is constrained. We can build a more complex
+<br>(and realistic) generator including such constraints based on Gamma distribution and
+<br>called constrained Poisson generator:<br><img src=""paste-00cccdcaa4c24a2223bded653262c2a354f7d98d.jpg"">"
+what is Neural (en/de)coding:	"measuring and characterizing the link between a stimulus feature s and the
+<br>train of action potentials generated as the neuronal output in response to the stimulus."
+aim of neural decoding is to	"compute an estimation of the stimulus that produced a given
+<br>neuronal output."
+"<span class=""cloze"" data-cloze=""Encoding"" data-ordinal=""2"">[...]</span> consists of computing <span class=""cloze-inactive"" data-ordinal=""1"">P [r|s]</span> , the probability of a response with firing rate r given a&nbsp; stimulus with property s"	"<span class=""cloze"" data-ordinal=""2"">Encoding</span> consists of computing <span class=""cloze-inactive"" data-ordinal=""1"">P [r|s]</span> , the probability of a response with firing rate r given a&nbsp; stimulus with property s<br>
+<img src=""paste-b1089be8e35b7f6a483aeaeed27fcf28ba0d535c.jpg"">"
+"<span class=""cloze-inactive"" data-ordinal=""2"">Encoding</span> consists of computing <span class=""cloze"" data-cloze=""P&#x20;&#x5B;r&#x7C;s&#x5D;"" data-ordinal=""1"">[...]</span> , the probability of a response with firing rate r given a&nbsp; stimulus with property s"	"<span class=""cloze-inactive"" data-ordinal=""2"">Encoding</span> consists of computing <span class=""cloze"" data-ordinal=""1"">P [r|s]</span> , the probability of a response with firing rate r given a&nbsp; stimulus with property s<br>
+<img src=""paste-b1089be8e35b7f6a483aeaeed27fcf28ba0d535c.jpg"">"
+"<span class=""cloze-inactive"" data-ordinal=""1"">Decoding</span> consists of computing <span class=""cloze"" data-cloze=""P&#x20;&#x5B;s&#x7C;r&#x5D;"" data-ordinal=""2"">[...]</span> , the probability of a stimulus with property s , given that
+<br>the neural response has firing rate r"	"<span class=""cloze-inactive"" data-ordinal=""1"">Decoding</span> consists of computing <span class=""cloze"" data-ordinal=""2"">P [s|r]</span> , the probability of a stimulus with property s , given that
+<br>the neural response has firing rate r<br>
+<img src=""paste-ae643b23efd4490d867fb3049051924573cb3499.jpg"">"
+"<span class=""cloze"" data-cloze=""Decoding"" data-ordinal=""1"">[...]</span> consists of computing <span class=""cloze-inactive"" data-ordinal=""2"">P [s|r]</span> , the probability of a stimulus with property s , given that
+<br>the neural response has firing rate r"	"<span class=""cloze"" data-ordinal=""1"">Decoding</span> consists of computing <span class=""cloze-inactive"" data-ordinal=""2"">P [s|r]</span> , the probability of a stimulus with property s , given that
+<br>the neural response has firing rate r<br>
+<img src=""paste-ae643b23efd4490d867fb3049051924573cb3499.jpg"">"
+"Given the distribution of firing rates in the figure:
+<br>A. The discriminability d’ is higher when the coherence is =1.6 than =6.4 (T/F)
+<br>B. There is an optimal value of z that can be used for all coherence levels (T/F)
+<br>C. r+ distribution is more affected by the coherence level than r- (T/F)<br><img src=""paste-aa7996e2515bfd77ac15eac7f4d60001a552c9c7.jpg"">"	F F T
+"Given the ROC curves in the figure:
+<br>A. The related AUC is between [0,1] (T/F)
+<br>B. The classification performances do not depend on z (T/F)
+<br>C. The classification performances depend on the experimental conditions (T/F)
+<br>D. The ideal curve is the one closer to the diagonal (T/F)<br><img src=""paste-d76227c06961575da6a4088bed4a691c862d0352.jpg"">"	F F T F
+when we analyze biological signals we can make two diferent types of analysis:	<ul><li><b>Univariate analysis</b>: We analyze each signal physical correlate) independently from the others</li><li><b>Multivariate Analysis: </b>in complex systems, we need to analyze the <b>signals </b>AND <b>their interdependency&nbsp;</b></li></ul>
+The key point that distinguishes univariate and multivariate analysis is that&nbsp;	in this last we&nbsp;<br>are also interested to study the interaction between the signals, so not only their individual&nbsp;<br>values.
+what is an objective of the <b>network neuroscience?</b>	"to map, record, analyze and model the elements and interactions of nneurobiological systems. to estimate dynamic brain networks at all levels (among molecules, neurons,
+<br>brain areas and social systems). Convergence of empirical and computational
+<br>advancements, to study network dynamics and integrate network processes across
+<br>spatiotemporal domains. it models parts of the brain as a network."
+why do we use <b>dynamic </b>to describe brain networks?	since it cant be static. even if network represents brain structure, the changes happen more slower 9brain plasticity). If it is info exchange, the network changes very quickly
+"In order to understand the brain functions and develop clinical and industrial applications,
+<br>we build a model of the brain circuit using <span class=""cloze"" data-cloze=""brain&#x20;activity&#x20;information"" data-ordinal=""1"">[...]</span> and <span class=""cloze-inactive"" data-ordinal=""2"">brain connectivity:</span>"	"In order to understand the brain functions and develop clinical and industrial applications,
+<br>we build a model of the brain circuit using <span class=""cloze"" data-ordinal=""1"">brain activity information</span> and <span class=""cloze-inactive"" data-ordinal=""2"">brain connectivity:</span><br>
+<img src=""paste-7cdaf1b92a824d429423a76664900a9b1243ab75.jpg"">"
+"In order to understand the brain functions and develop clinical and industrial applications,
+<br>we build a model of the brain circuit using <span class=""cloze-inactive"" data-ordinal=""1"">brain activity information</span> and <span class=""cloze"" data-cloze=""brain&#x20;connectivity&#x3A;"" data-ordinal=""2"">[...]</span>"	"In order to understand the brain functions and develop clinical and industrial applications,
+<br>we build a model of the brain circuit using <span class=""cloze-inactive"" data-ordinal=""1"">brain activity information</span> and <span class=""cloze"" data-ordinal=""2"">brain connectivity:</span><br>
+<img src=""paste-7cdaf1b92a824d429423a76664900a9b1243ab75.jpg"">"
+There are different types of brain connectivity:	<ul><li><b>Anatomical connectivity</b>: Physical connection</li><li><b>Functional connectivity</b>: Two or more regions have similar behaviors&nbsp;</li><li><b>Effective connectivity</b>: A brain region influences the behavior of another one</li></ul>
+describe anatomical connectivity:	<ul><li>relatively stable</li><li>likely to be subject to significant morphological change and plasticity</li><li>anatomical connectivity is independent by what the subject is doing during the imaging acquisition</li><li>it is the basis of functional/effective connectivity, but cant explain it</li></ul>
+what are the two main applications to to study anatomical connectivity in clinical setting?	1. monitor evolution of a brain disease<br>2. monitor outcome and progress during neurorehabilitation
+"<span class=""cloze"" data-cloze=""Functional&#x20;connectivity"" data-ordinal=""1"">[...]</span> represents how much two or more brain regions are
+<br>related between them. Functional connectivity is essentially descriptive."	"<span class=""cloze"" data-ordinal=""1"">Functional connectivity</span> represents how much two or more brain regions are
+<br>related between them. Functional connectivity is essentially descriptive.<br>
+<img src=""paste-7ea6262a7beab7a74ab297957c632575e177727b.jpg"">"
+Relation between regions can be quantified with different measures such as:	"<ul><li><b>Correlation</b>: It measures how much two signals are synchronized or similar in
+<br>time&nbsp;</li><li><b>Coherence</b>: It is the same of correlation but in frequency domain&nbsp;</li><li><b>Transfer entropy</b>: It measures more general changes (entropy changes during&nbsp;interactions of regions)<br></li></ul>"
+"Differently from <span class=""cloze"" data-cloze=""anatomical"" data-ordinal=""1"">[...]</span> connectivity, <span class=""cloze-inactive"" data-ordinal=""2"">functional</span> connectivity depends on what
+<br>the subject is doing, for instance we have two different networks when the
+<br>subject is solving a problem and when he is at rest."	"Differently from <span class=""cloze"" data-ordinal=""1"">anatomical</span> connectivity, <span class=""cloze-inactive"" data-ordinal=""2"">functional</span> connectivity depends on what
+<br>the subject is doing, for instance we have two different networks when the
+<br>subject is solving a problem and when he is at rest.<br>
+"
+"Differently from <span class=""cloze-inactive"" data-ordinal=""1"">anatomical</span> connectivity, <span class=""cloze"" data-cloze=""functional"" data-ordinal=""2"">[...]</span> connectivity depends on what
+<br>the subject is doing, for instance we have two different networks when the
+<br>subject is solving a problem and when he is at rest."	"Differently from <span class=""cloze-inactive"" data-ordinal=""1"">anatomical</span> connectivity, <span class=""cloze"" data-ordinal=""2"">functional</span> connectivity depends on what
+<br>the subject is doing, for instance we have two different networks when the
+<br>subject is solving a problem and when he is at rest.<br>
+"
+"<span class=""cloze"" data-cloze=""Effective&#x20;connectivity"" data-ordinal=""1"">[...]</span> refers explicitly to the influence that one neural system
+<br>exerts over another, either at a synaptic or population level."	"<span class=""cloze"" data-ordinal=""1"">Effective connectivity</span> refers explicitly to the influence that one neural system
+<br>exerts over another, either at a synaptic or population level.<br>
+"
+"we use <span class=""cloze-inactive"" data-ordinal=""1"">parametrized</span> model for <span class=""cloze"" data-cloze=""effective"" data-ordinal=""2"">[...]</span> connectivity. Indeed, <span class=""cloze"" data-cloze=""effective"" data-ordinal=""2"">[...]</span> connectivity
+<br>corresponds to the parameters of the model that tries to explain observed
+<br>dependencies. The model can be based on coupling or directed causal influence,
+<br>it can use Hypothesis-led or large model spaces."	"we use <span class=""cloze-inactive"" data-ordinal=""1"">parametrized</span> model for <span class=""cloze"" data-ordinal=""2"">effective</span> connectivity. Indeed, <span class=""cloze"" data-ordinal=""2"">effective</span> connectivity
+<br>corresponds to the parameters of the model that tries to explain observed
+<br>dependencies. The model can be based on coupling or directed causal influence,
+<br>it can use Hypothesis-led or large model spaces.<br>
+<img src=""paste-1a0c01389404e2dca027f6a6443bb68787418200.jpg"">"
+"we use <span class=""cloze"" data-cloze=""parametrized"" data-ordinal=""1"">[...]</span> model for <span class=""cloze-inactive"" data-ordinal=""2"">effective</span> connectivity. Indeed, <span class=""cloze-inactive"" data-ordinal=""2"">effective</span> connectivity
+<br>corresponds to the parameters of the model that tries to explain observed
+<br>dependencies. The model can be based on coupling or directed causal influence,
+<br>it can use Hypothesis-led or large model spaces."	"we use <span class=""cloze"" data-ordinal=""1"">parametrized</span> model for <span class=""cloze-inactive"" data-ordinal=""2"">effective</span> connectivity. Indeed, <span class=""cloze-inactive"" data-ordinal=""2"">effective</span> connectivity
+<br>corresponds to the parameters of the model that tries to explain observed
+<br>dependencies. The model can be based on coupling or directed causal influence,
+<br>it can use Hypothesis-led or large model spaces.<br>
+<img src=""paste-1a0c01389404e2dca027f6a6443bb68787418200.jpg"">"
+main differences between Functional VS Effective connectivity	"<ul><li><b>Model based: </b>Functional connectivity does not rest on any model, effective one instead, is model based.&nbsp;&nbsp;</li><li><b>Causality:</b> Functional connectivity uses a non-oriented graph therefore it does not give any information about causality. Effective instead, gives information about causality.&nbsp;</li></ul>In a nutshell, let consider two regions A and B:
+<br><br><ul style=""""><li style=""""><b style=""font-weight: bold;"">Functional connectivity</b><b> answers to the question: Are A and B similar </b>or related?<b>&nbsp;</b></li><li style=""""><b>Effective connectivity</b> answers to: Does A cause what happens in B?</li></ul>"
+"synchronisity between brain regions is the base of <span class=""cloze"" data-cloze=""brain&#x20;rhythmics"" data-ordinal=""1"">[...]</span>"	"synchronisity between brain regions is the base of <span class=""cloze"" data-ordinal=""1"">brain rhythmics</span><br>
+"
+Given a complex values time series x[n] with sampling interval T , the auto-correlation function is&nbsp; defined as:	"<img src=""paste-4fae01b4a267ebac50d6ce96420983bdbb5f2639.jpg"">"
+"We can pass from time domain to the frequency domain by computing the
+<br><span class=""cloze"" data-cloze=""Fourier&#x20;Transform"" data-ordinal=""1"">[...]</span> of the time series x[n] :"	"We can pass from time domain to the frequency domain by computing the
+<br><span class=""cloze"" data-ordinal=""1"">Fourier Transform</span> of the time series x[n] :<br>
+<img src=""paste-f3153f726fabd1b9dfbaa4b335103b4954efc61f.jpg""><br>Applying Fourier transformation we passed from a time-discrete signal
+<br>x[n] to a continuous function X(f ) ."
+after taking fourier transform, we can compute the Power Spectral Density (PSD) as:	"<img src=""paste-8749ddaa524940a885c2358542168339347ff928.jpg""><br><img src=""paste-9cb690fea673ea9b85f103e5570e0898bb4202a7.jpg"">"
+"Given two complex values time series x[n] and y[n] with sampling interval T , the cross-correlation
+function is defined as:"	"<img src=""paste-94eeaa281aa9ccd7bf950eeec74858567a1441ce.jpg"">"
+Given two time series x[n] and y[n] the Mutual Power Spectral Density are computed as:	"<img src=""paste-879ccc5db3ccb6e47ef8996028137f064f31f309.jpg""><br>It’s symmetrical:<br><img src=""paste-b8d40d7962e8e3065b786536f1c0d7cc43cab2e7.jpg""><br>Mutual Power Spectral Density represents the quantity of power that both signals
+<br>""share"" in a frequency f .<br><img src=""paste-3921b836ae859b31e60bf5808ab159d6830df0a8.jpg"">"
+why is wiener-khinchin theorem so important?	"For us, Fourier transformation X(f ) of the time series x[n] has not a
+<br>physical meaning and it is not useful, in the contrary, the PSD has a
+<br>physical meaning (signal strength) and we will be used by us later on.
+<br>Wiener-Khinchin Theorem is very important since allows us to always
+<br>compute the PSD of x[n] , indeed not all signals can be Fourier-
+<br>transformed but the auto-correlation can be always transformed.<br><img src=""paste-e601056d9d6e3a53fe0fcdedeb6a484d1782db10.jpg"">"
+What is coherence?	"Coherence is essentially the same concept of correlation but defined in frequency domain using
+<br>spectral power density function defined before.
+<br>There are several levels of coherence, we will see only the first order (ordinary coherence)."
+"We can collect all information about coherency between two signals x[n] and y[n] in the spectral
+<br>matrix:"	"<img src=""paste-f19410351ad29a7629793193286c24091708b8da.jpg""><br><img src=""paste-5506591d6f4a9a515638d37f1975984f0fe365b9.jpg"">"
+what is an Ordinary Coherence?	"Ordinary Coherence is the linear correlation between two signals at a given frequency, it is defined
+<br>as the Mutual Power Spectral Density divided by the product of their individual Power Spectral
+<br>Densities. These last are used to normalize and take into account the ratio of exchanged power on
+<br>the total power of the signals:<br><img src=""paste-e59f5813b898a0c42e7a2785d9ad05f5cea96b9a.jpg"">"
+What are the properties of ordinary coherence?	"<ul><li>Spectral: It’s spectral (=a function of frequency)
+</li><li>Normalized: It’s normalized between 0 and 1</li><li><img src=""paste-f64792ff6395a942c8121e9564b7c50641d61b82.jpg""><br></li></ul>"
+What are the advantage of the ordinary coherence?	<ul><li>Easy to compute: All the computation is based on well-known Fourier transformation&nbsp;</li></ul><ul><li>Useful to build a graph: For each frequency, we can build a coherence network in which nodes are EEG signals and arcs are weighted with coherence</li></ul>
+What are the limitations for the ordinary coherence?	<ul><li>Non-oriented graph: The graph that we can build cannot be oriented since ordinary coherence is symmetrical ( C (f ) = C (f ) ), therefore it do not give any information about the direction of the interaction&nbsp;</li></ul><ul><li>No causality: A consequence of the previous property is that coherence measures synchronicity but not causality&nbsp;</li></ul><ul><li>Bivariate: It’s bivariate (what if the time series are more than 2?)</li></ul>
+"Explain the difference between anatomical and functional/effective
+<br>connectivity"	"For the anatomical connectivity there is a physical link between the 2 parts
+<br>that are connected, for instance this can be an axon of fiber. While in the case
+<br>of functional connectivity, we have always the physical link, but it can be used
+<br>or not and at different levels. They are different also in the time scale, in fact
+<br>at longer time scale (hours to days) the anatomical structure can be subjected
+<br>to significant morphological changes and plasticity, but it is relatively stable at
+<br>shorter time scales (seconds to minutes); while the functional connectivity is
+<br>subject to changes at lower time scales (milliseconds)."
+Explain the difference between correlation and causation*	"The correlation means that 2 events happen at the same time, while causa-
+<br>tion means that an even is the cause of another one, so a changing in an event
+<br>caused a changing in the other one."
+"If C xy is the ordinary coherence between x and y, indicate, for each
+<br>of the following sentences, if they are true or false:
+<br>• A. C xy is a function of frequency&nbsp;<br>• B. C xy ∈ [0, 1]&nbsp;&nbsp;<br>• C. C xy = C yx&nbsp;<br>• D. C xy can be computed also if the Fourier transform of x and y does not
+<br>exist&nbsp;"	T&nbsp; T T&nbsp; T
+"Describe at least 2 advantages and 2 limitations of the ordinary co-
+<br>herence"	"ADVANTAGES:
+<br>• It’s spectral
+<br>11• It’s normalized, so it’s always between 0 and 1
+<br>•&nbsp;<img src=""paste-8de7afefa58bea431600ea2f991df2a8f49cd85f.jpg""><br>LIMITATIONS
+<br>• we can’t know the direction of the interaction
+<br>• It’s bivariate
+<br>• it measures synchronicity but not causality"
+We can define the concept of causality between two quantities in two different ways.	.PHYSICAL INFLUENCE<br>.TEMPORAL PRECEDENCE
+"The first way to define causality is by studying their <span class=""cloze"" data-cloze=""physical&#x20;influence"" data-ordinal=""1"">[...]</span>. A quantity x physically
+<br>influences another quantity y if changing the cause (or control) x also the consequence y changes."	"The first way to define causality is by studying their <span class=""cloze"" data-ordinal=""1"">physical influence</span>. A quantity x physically
+<br>influences another quantity y if changing the cause (or control) x also the consequence y changes.<br>
+"
+Main limitations of physical influence (list 2)	<ol><li>if we want to test two regions phisical influence, we must do lab experiment. the procedure can be invasive or noninvasive (injecting current). in any way, we are gonna physically act on subjects brain, influencing the brain activity.</li><li>we do separate experiment for each hypothesis. e.g: does x influence y? --&gt; experiment 1; does y influence x? --&gt; experiment 2&nbsp;</li></ol>
+advantages of temporal precendence	<ul><li>single experiment, multiple hypothesis tests</li><li>easy to use</li><li>non interventional, doesnt influence subject's brain activity.</li></ul>
+disadvantages of temporal precedence	because we cant check physically for causality, we can fall in, for instance, common source problem.
+define&nbsp;causality is the statistical sense	"Given two simultaneously measured signals y , x , if one can predict the first signal y better by
+<br>incorporating the past information from the second signal x than using only information from
+<br>the first one y , then the second signal x can be called causal to the first one y (Wiener, 1956)."
+"Wiener provides to us only a general theoretical concept about statistic causality that can be
+<br>summarized in the following three steps:"	"Step 1: Predict y future with only y past values
+<br>Step 2: Predict y future with y and x past values
+<br>Step 3: If we obtained better prediction performance in step 2 then x causes y"
